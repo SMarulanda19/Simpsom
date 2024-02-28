@@ -11,3 +11,4 @@ function Card({ title, quote }) {
 }
 
 export default Card;
+

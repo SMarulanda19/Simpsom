@@ -33,11 +33,11 @@ function App() {
       <h1 className="app-title">Simpsons Quotes</h1>
       <div className="card-container">
         {quotes.map((quote, index) => (
-          <Card key={index} title={quote.character} quote={quote.quote} />
+        <Card key={index} title={quote.character} quote={quote.quote} />
         ))}
       </div>
           <div>
-            <QuoteButton buttonClass="buttonPrimary" refreshFn = {changeQuote}/>
+            <QuoteButton buttonClass="buttonPrimary" refreshFn = {changeQuote}/>  
           </div>
     </div>
   );
